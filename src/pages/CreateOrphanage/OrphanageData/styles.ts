@@ -38,6 +38,18 @@ const styles = StyleSheet.create({
     textAlignVertical: "top",
   },
 
+  uploadedImagesContainer: {
+    flexDirection: "row",
+  },
+
+  imagePreview: {
+    height: 64,
+    width: 64,
+    borderRadius: 20,
+    marginBottom: 32,
+    marginRight: 8,
+  },
+
   imagesInput: {
     backgroundColor: "rgba(255, 255, 255, 0.5)",
     borderStyle: "dashed",
