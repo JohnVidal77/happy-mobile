@@ -10,7 +10,6 @@ import styles from "./styles";
 import MapMarker from "../../images/map-marker.png";
 import { RectButton } from "react-native-gesture-handler";
 import api from "../../services/api";
-
 interface Orphanage {
   id: number;
   latitude: number;
